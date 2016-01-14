@@ -1,0 +1,27 @@
+.writinglink {
+	&:hover {
+		-webkit-animation: jello 1s;
+    	animation: jello 1s;
+	}
+}
+
+.designlink {
+	&:hover {
+		-webkit-animation: swing 1s;
+    	animation: swing 1s;
+	}
+}
+
+.videoslink {
+	&:hover {
+		-webkit-animation: rubberBand 1s;
+    	animation: rubberBand 1s;
+	}
+}
+
+.resumelink {
+	&:hover {
+		-webkit-animation: pulse 1s;
+    	animation: pulse 1s;
+	}
+}

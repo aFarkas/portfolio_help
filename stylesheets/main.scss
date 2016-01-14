@@ -1,0 +1,22 @@
+* {box-sizing: border-box;}
+
+@import 'vendor/bourbon/bourbon';
+@import 'partials/nav';
+@import 'partials/gallery';
+@import 'partials/resume';
+@import 'partials/animations';
+@import 'partials/isotope';
+
+
+body {
+	margin: 0;
+	font-family: 'Cambria', 'Arial', sans-serif;
+	// background-color: rgba(white, .2);
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+

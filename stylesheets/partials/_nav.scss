@@ -1,0 +1,108 @@
+	header {
+	background-color: green;
+	padding: 10px 5%;
+	border-bottom: 10px solid darkgreen;
+
+
+		.main_title {
+			font-family: 'Cagliostro', Verdana, sans-serif;
+			margin-bottom: 0;
+			font-size: 40px;
+			font-weight: 600;
+			color: white;
+		}
+
+		.main_subtitle {
+			font-family: 'Terminal Dosis', sans-serif;
+			color: black;
+			margin-top: 5px;
+			font-size: 20px;
+			font-weight: 200;
+		}
+
+		.title_big {
+			@extend .main_title;
+			font-size: 60px;
+			text-align: center;
+		}
+
+		.subtitle_big {
+			@extend .main_subtitle;
+			font-size: 40px;
+			text-align: center;
+		}
+
+
+		nav {
+			.nav-main {
+			float: right;
+			list-style: none;
+			
+
+				li {
+				display: inline;
+				padding-left: 30px;
+				font-weight: 600;
+				font-size: 20px;
+				font-family: 'Terminal Dosis', sans-serif;
+				text-decoration: none;
+				color: black;
+				}	
+			}
+		}
+		 
+		.navlink {
+			font-family: Helvetica, Arial, sans-serif;
+			text-decoration: none;
+			color: black;
+			transition: .5s;
+
+			&:hover {
+			color: white;
+			}
+		}
+	}
+
+
+	@media (max-width: 480px) {
+		.js-menu {
+			display: block;
+			margin-left: 50px;
+		}
+
+		#main_title, #main_subtitle{
+			text-align: center;
+		}
+
+		.nav-main {
+			float: none;
+			padding-left: 0;
+			padding-right: 30px;
+			text-align: center;
+
+				li:nth-child {
+					padding-right: 0;
+				}
+		}
+	}
+
+	footer {
+		text-align: center;
+
+		p {
+			margin: 0;
+			padding: 0;
+			font-size: 20px;
+		}
+	}
+
+	.titlelink {
+			text-decoration: none;
+		}
+
+
+
+
+
+
+
